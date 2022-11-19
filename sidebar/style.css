@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+.side{
+    padding-top: 60px;
+    width: 250px;
+    height: 150%;
+    background-color:white;
+    -webkit-box-shadow: 12px -17px 38px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px -17px 38px -11px rgba(0,0,0,0.75);
+box-shadow: 12px -17px 38px -11px rgba(0,0,0,0.75);
+}
+.side h1{
+    display: flex;
+    justify-content: center;
+}
+.primary{
+    padding-top: 50px;
+}
+.others{
+    padding-top: 50px;
+}
+.primary h3{
+    padding-left: 15px;
+}
+.others h3{
+    padding-left: 15px;
+}
+.favorites h3{
+    padding-left: 15px;
+}
+.favorites{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.primary-list{
+    list-style-type: none;
+}
+.others-list{
+    list-style-type: none;
+}
+.primary-list li{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    transition: 0.6s ease-in-out;
+}
+.primary-list li a{
+    padding-left: 30px;
+    color: black;
+    text-decoration: none;
+    transition: 0.6s ease-in-out;
+}
+.others-list li{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    transition: 0.6s ease-in-out;
+}
+.others-list li a{
+    padding-left: 30px;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    transition: 0.6s ease-in-out;
+}
+li:hover{
+     text-decoration: underline;
+    background-color: rgb(201, 201, 201);
+    border-radius: 0px 20px 20px 0px;
+ 
+}
+li a:hover{
+    color: white;
+}
+.favorites p{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+ 
+span{
+    padding-left: 25px;
+    padding-top: 15px;
+}
+ li a{
+    position: relative;
+    top: -5px;
+ 
+} 
+ 
+.material-symbols-outlined {
+ 
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
